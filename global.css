@@ -21,9 +21,26 @@ body {
     box-sizing: border-box;
 }
 
+section {
+    min-height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
 a {
     text-decoration: none;
     color: inherit;
+    font-size: 1rem;
 }
 
 ul,
@@ -42,9 +59,4 @@ textarea {
 
 button {
     cursor: pointer;
-}
-
-section {
-    height: 100vh;
-    width: 100%;
 }
